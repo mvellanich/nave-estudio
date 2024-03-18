@@ -1,0 +1,28 @@
+section {
+  .div-producciones {
+    div {
+      display: flex;
+      text-align: right;
+      flex-direction: row;
+      justify-content: center;
+      margin: 50px 100px 70px 100px;
+      padding: 4px;
+      align-items: center;
+      p {
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        padding-left: 50px;
+        width: 30%;
+        color: white;
+        font-size: 20px;
+      }
+    }
+  }
+  .videosProd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+}

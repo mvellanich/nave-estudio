@@ -1,0 +1,25 @@
+header {
+  .body {
+    background-image: url(../img/fondo.webp);
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.03em;
+  }
+  .navbar-wrapper {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0% 4% 0% 4%;
+    color: white;
+    ul {
+      width: 100%;
+      text-align: right;
+    }
+  }
+  .nav-link-color {
+    color: white;
+  }
+  .active-link {
+    text-decoration: underline;
+  }
+}

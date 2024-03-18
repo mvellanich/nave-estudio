@@ -1,6 +1,6 @@
 /* Generales */
 
-body {
+.body {
   background-image: url(../img/fondo.webp);
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 0.03em;
@@ -34,13 +34,6 @@ body {
 }
 .align-center {
   text-align: center;
-}
-
-.list-inliner {
-  li {
-    padding: 0.2%;
-    display: inline-block;
-  }
 }
 
 li a {
@@ -172,8 +165,7 @@ h2 {
   padding: 0%;
   font-size: 20px;
 }
-
-.fotosDivs {
+sq .fotosDivs {
   display: flex;
   justify-content: center;
   gap: 10px;
