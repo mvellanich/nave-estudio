@@ -135,28 +135,28 @@ section .textoServicios {
   text-align: center;
 }
 
-section {
+.section-equipamiento {
   display: flex;
   flex-direction: column;
 }
-section .texto-equipamiento {
+.section-equipamiento .texto-equipamiento {
   text-align: center;
   color: white;
   font-size: 1.3em;
   max-width: auto;
 }
-section .listaEquipamiento {
+.section-equipamiento .listaEquipamiento {
   color: white;
   text-align: center;
   padding: 0%;
   font-size: 16px;
 }
-section .fotosDivs {
+.section-equipamiento .fotosDivs {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-section .carouselsize {
+.section-equipamiento .carouselsize {
   width: auto;
   height: auto;
   margin: auto;
@@ -224,6 +224,84 @@ section .div-producciones p {
 @media screen and (max-width: 425px) {
   .videosProd {
     flex-direction: column;
+  }
+}
+
+.section-contacto .contact-wrapper {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.section-contacto .contact-info {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  width: 50%;
+  text-decoration: none;
+  gap: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .section-contacto .contact-info {
+    font-size: medium;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-contacto .contact-info {
+    font-size: x-small;
+  }
+}
+.section-contacto .contact-info div iframe {
+  width: 450px;
+  height: 350px;
+}
+@media screen and (max-width: 1000px) {
+  .section-contacto .contact-info div iframe {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-contacto .contact-info div iframe {
+    width: 250px;
+    height: 150px;
+  }
+}
+.section-contacto .link-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 0px 3px;
+  text-decoration: none;
+}
+.section-contacto .link-wrapper ul li {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  padding-bottom: 4%;
+}
+.section-contacto .contact-form {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  width: 100%;
+}
+.section-contacto .form-input {
+  min-width: auto;
+  min-height: auto;
+}
+.section-contacto .form-size {
+  width: 700px;
+  height: auto;
+}
+@media screen and (max-width: 1000px) {
+  .section-contacto .form-size {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-contacto .form-size {
+    width: 300px;
   }
 }
 
