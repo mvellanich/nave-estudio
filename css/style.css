@@ -70,6 +70,11 @@ footer div div div .right-border {
   border-right: 1px solid white;
   padding: 0 15px 0 15px;
 }
+@media screen and (max-width: 425px) {
+  footer div div div .right-border {
+    display: none;
+  }
+}
 footer div div div img {
   height: 25px;
   width: 25px;

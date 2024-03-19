@@ -20,6 +20,9 @@ footer {
         .right-border {
           border-right: 1px solid white;
           padding: 0 15px 0 15px;
+          @include mobile {
+            display: none;
+          }
         }
         img {
           height: 25px;
