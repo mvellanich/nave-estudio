@@ -1,0 +1,29 @@
+.section-equipamiento {
+  display: flex;
+  flex-direction: column;
+
+  .texto-equipamiento {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    max-width: auto;
+  }
+  .listaEquipamiento {
+    color: white;
+    text-align: center;
+    padding: 0%;
+    font-size: 16px;
+  }
+
+  .fotosDivs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .carouselsize {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+}

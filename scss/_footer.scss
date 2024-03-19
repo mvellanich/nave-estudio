@@ -1,0 +1,50 @@
+footer {
+  background-image: url(../img/fondo.webp);
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 0.03em;
+    padding-right: 6px;
+    color: white;
+    gap: 5px;
+    flex-wrap: wrap;
+    div {
+      div {
+        .social-media {
+          gap: 5px;
+          display: flex;
+          align-items: center;
+        }
+        .right-border {
+          border-right: 1px solid white;
+          padding: 0 15px 0 15px;
+        }
+        img {
+          height: 25px;
+          width: 25px;
+        }
+        a {
+          align-items: center;
+          color: white;
+          text-decoration: none;
+          @include tablet {
+            font-size: 0px;
+          }
+          @include mobile {
+            font-size: 0px;
+          }
+        }
+        span {
+          @include tablet {
+            font-size: 0.8rem;
+          }
+          @include mobile {
+            font-size: 0px;
+          }
+        }
+      }
+    }
+  }
+}

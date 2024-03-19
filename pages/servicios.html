@@ -9,6 +9,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Link CSS -->
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -107,7 +109,7 @@
     <section>
       <h2>SERVICIOS</h2>
       <div class="services-wrapper2">
-        <div class="card mb-3 bg-img" style="max-width: 80%">
+        <div class="card mb-3 bg-img">
           <div class="row g-0 card-wrapper">
             <div class="col-md-4">
               <img
@@ -115,6 +117,7 @@
                 class="img-fluid rounded-start"
                 alt="..."
                 width="400px"
+                data-aos="fade-right"
               />
             </div>
             <div class="col-md-8">
@@ -130,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div class="card mb-3 bg-img" style="max-width: 80%">
+        <div class="card mb-3 bg-img">
           <div class="row g-0 card-wrapper">
             <div class="col-md-4">
               <img
@@ -138,6 +141,7 @@
                 class="img-fluid rounded-start"
                 alt="..."
                 width="400px"
+                data-aos="fade-right"
               />
             </div>
             <div class="col-md-8">
@@ -153,7 +157,7 @@
             </div>
           </div>
         </div>
-        <div class="card mb-3 bg-img" style="max-width: 80%">
+        <div class="card mb-3 bg-img">
           <div class="row g-0 card-wrapper">
             <div class="col-md-4">
               <img
@@ -161,6 +165,7 @@
                 class="img-fluid rounded-start"
                 alt="..."
                 width="400px"
+                data-aos="fade-right"
               />
             </div>
             <div class="col-md-8">
@@ -191,30 +196,27 @@
         </a>
         <div class="footer-info">
           <div class="social-media right-border">
-            <img src="../img/iglogo.png" alt="Instagram logo" />
+            
             <a
               href="https://www.instagram.com/nave.estudiomovil"
               target="_blank"
-              >INSTAGRAM.COM/NAVE.ESTUDIOMOVIL</a
+              ><img src="../img/iglogo.png" alt="Instagram logo" /> INSTAGRAM.COM/NAVE.ESTUDIOMOVIL</a
             >
           </div>
 
           <div class="social-media right-border">
-            <img src="../img/wplogo.png" alt="Whatsapp logo" />
-            <a href="www.instagram.com/nave.estudiomovil">(+54)97777777</a>
+            
+            <a href="https://www.instagram.com/nave.estudiomovil"><img src="../img/wplogo.png" alt="Whatsapp logo" /> (+54)97777777</a>
           </div>
 
           <div class="social-media right-border">
-            <img src="../img/gmaillogo.png" alt="Gmail logo" />
+            
             <a href="mailto:nave.estudiomovil@gmail.com"
-              >nave.estudiomovil@gmail.com</a
+              ><img src="../img/gmaillogo.png" alt="Gmail logo" /> nave.estudiomovil@gmail.com</a
             >
-          </div>
-
-          <span style="padding-left: 15px"
-            >Copyright 2024 - Nave Estudio Movil</span
-          >
-        </div>
+            <div class="social-media right-border">
+              <span>| © Copyright 2024 - Nave Estudio Movil</span>
+            </div>
       </div>
     </footer>
     <script
@@ -222,5 +224,9 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

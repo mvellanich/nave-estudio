@@ -1,0 +1,12 @@
+section {
+  background-image: url(../img/fondo.webp);
+  div {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-size: 3em;
+      text-align: center;
+      color: #dfff51c0;
+    }
+  }
+}
